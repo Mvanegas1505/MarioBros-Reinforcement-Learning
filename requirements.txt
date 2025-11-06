@@ -1,0 +1,20 @@
+# Project dependencies for MarioBros-DeepLearning (Gymnasium + SB3)
+# Use an activated virtualenv (Python 3.11 recommended)
+
+gymnasium>=0.29.1,<1.3
+stable-baselines3>=2.3.0
+shimmy>=2.0
+
+# Legacy Gym wrappers used by nes_py/JoypadSpace and our preprocessing
+gym==0.26.2
+pyglet>=1.4.0,<=1.5.21
+
+# Super Mario Bros environment and NES emulator
+gym-super-mario-bros>=7.0.0
+nes-py>=8.2.1
+tqdm>=4.48.2
+
+matplotlib>=3.7
+opencv-python>=4.8
+numpy>=1.24,<2.0
+tensorboard>=2.13

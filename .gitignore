@@ -1,0 +1,58 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Build / distribution
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+site/
+
+# Testing / coverage / tooling caches
+.coverage
+.coverage.*
+.nox/
+.tox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+htmlcov/
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project artifacts (training outputs)
+logs/
+train/
+*.zip
+training_rewards.png
+
+# Misc
+.matplotlib/
+
+# AI - ASSISTED FILE
+GEMINI.MD
