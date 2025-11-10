@@ -11,6 +11,7 @@ ENV/
 env/
 env.bak/
 venv.bak/
+venv*/
 
 # Build / distribution
 build/
@@ -46,13 +47,10 @@ Thumbs.db
 desktop.ini
 
 # Project artifacts (training outputs)
-logs/
 train/
-*.zip
+
 training_rewards.png
 
 # Misc
 .matplotlib/
 
-# AI - ASSISTED FILE
-GEMINI.MD
